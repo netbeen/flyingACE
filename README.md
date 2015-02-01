@@ -100,7 +100,7 @@
 ---
 
 # GUI
-![GUI](http://ww4.sinaimg.cn/large/9e2d8c2djw1eojz8l24epj20gz0nmag7.jpg "GUI")
+![GUI](http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif "GUI")
 
 # Thanks
 - Thanks to Mr. Andreas Löw (the author of TexturePacker), for prividing the free key of TexturePacker pro.
