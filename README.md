@@ -39,7 +39,7 @@
 ---
 
 # 游戏界面
-![GUI](http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif "GUI")
+<img src="http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif">
 
 
 ---
@@ -100,7 +100,7 @@
 ---
 
 # GUI
-![GUI](http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif "GUI")
+<img src="http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif">
 
 # Thanks
 - Thanks to Mr. Andreas Löw (the author of TexturePacker), for prividing the free key of TexturePacker pro.
