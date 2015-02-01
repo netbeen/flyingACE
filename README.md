@@ -38,7 +38,7 @@
 
 ---
 
-# 游戏界面
+# 游戏界面<br/>
 <img src="http://ww4.sinaimg.cn/large/9e2d8c2djw1eouast7hgyg208w06o7wr.gif">
 
 
