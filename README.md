@@ -16,7 +16,7 @@
 
 ---
 
-## 配置方法
+## 配置方法 Configure
 ```shell
 cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
 mkdir gitsrc
@@ -48,8 +48,8 @@ git clone https://github.com/netbeen/flyingACE.git
 
 ---
 
-# 游戏界面<br/>
-<img src="http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif">
+# 游戏界面 GUI
+![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
 
 
 ---
@@ -121,7 +121,7 @@ git clone https://github.com/netbeen/flyingACE.git
 ---
 
 # GUI
-<img src="http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif">
+![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
 
 # Thanks
 - Thanks to Mr. Andreas Löw (the author of TexturePacker), for prividing the free key of TexturePacker pro.
