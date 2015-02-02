@@ -39,7 +39,7 @@
 ---
 
 # 游戏界面<br/>
-<img src="https://github.com/douxt/Brave_cpp/blob/master/Resources/win.gif">
+<img src="http://ww1.sinaimg.cn/mw690/9e2d8c2djw1eourqpqwikg208w06ob29.gif">
 
 
 ---
