@@ -17,12 +17,12 @@
 ---
 
 ## 配置方法
-`
+```shell
 cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
 mkdir gitsrc
 cd gitsrc
 git clone https://github.com/netbeen/flyingACE.git
-`
+```
 - 然后用gitsrc中的Classes和Resources文件夹覆盖cocos新建的Classes和Resources文件夹，用Eclipse导入Android工程即可。
 
 ---
@@ -89,12 +89,12 @@ git clone https://github.com/netbeen/flyingACE.git
 ---
 
 ## Configure
-`
+```shell
 cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
 mkdir gitsrc
 cd gitsrc
 git clone https://github.com/netbeen/flyingACE.git
-`
+```
 - And then, using folder named Classes and Resources to override the correspondence folder. Import with Eclipse for Android project.
 
 ---
