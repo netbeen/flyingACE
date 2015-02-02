@@ -39,7 +39,7 @@
 ---
 
 # 游戏界面<br/>
-<img src="http://ww3.sinaimg.cn/large/9e2d8c2djw1eousbskrc1g205r07a1l6.gif">
+<img src="http://ww4.sinaimg.cn/large/9e2d8c2djw1eout5fabfwg205008x7wl.gif">
 
 
 ---
