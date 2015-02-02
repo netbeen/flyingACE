@@ -28,6 +28,12 @@ git clone https://github.com/netbeen/flyingACE.git
 
 ---
 
+# 游戏界面 GUI
+![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
+
+
+---
+
 ## 类功能分布 Files
 - AppDelegate: 程序入口，初始化Director类的参数，场景构建，布景层挂载
 - BulletLayer: 子弹层，用批量渲染技术加载子弹并维护子弹数据
@@ -46,12 +52,6 @@ git clone https://github.com/netbeen/flyingACE.git
 - WelcomeBackgroundLayer: 欢迎界面中的背景层
 - WelcomeButtonLayer: 欢迎界面中的按钮回调函数
 - WelcomeScene: 欢迎界面
-
----
-
-# 游戏界面 GUI
-![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
-
 
 ---
 
@@ -101,6 +101,11 @@ git clone https://github.com/netbeen/flyingACE.git
 
 ---
 
+# GUI
+![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
+
+---
+
 ## Files
 - AppDelegate: The init access of the program. Init the Direct class and construct the Scenes and Layers.
 - BulletLayer: Bullet Layer, using SpriteBatchNode to load bullets.
@@ -121,9 +126,6 @@ git clone https://github.com/netbeen/flyingACE.git
 - WelcomeScene: Welcome scene, the loading image.
 
 ---
-
-# GUI
-![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
 
 # Thanks
 - Thanks to Mr. Andreas Löw (the author of TexturePacker), for prividing the free key of TexturePacker pro.
