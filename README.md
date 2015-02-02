@@ -1,8 +1,7 @@
 # flyingACE (王牌飞行员)
 - Difficult in Chinese? -> [English Version](#EnglishTitle)
 - 这是一个使用Cocos2d-x-3.X 开发的飞机大战游戏，实际版本为Cocos2d-x3.3
-- 产品博客：[http://blog.csdn.net/yy19900806/article/category/2856067](http://blog.csdn.net/yy19900806/article/category/2856067)
-
+- 开发博客：[http://blog.csdn.net/yy19900806/article/category/2856067](http://blog.csdn.net/yy19900806/article/category/2856067)
 
 ---
 
@@ -14,6 +13,17 @@
 - Android NDK r10d
 - gcc 4.8
 - 在win32平台、linux平台、android平台、android虚拟机上测试通过
+
+---
+
+## 配置方法
+`
+cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
+mkdir gitsrc
+cd gitsrc
+git clone https://github.com/netbeen/flyingACE.git
+`
+- 然后用gitsrc中的Classes和Resources文件夹覆盖cocos新建的Classes和Resources文件夹，用Eclipse导入Android工程即可。
 
 ---
 
@@ -63,7 +73,7 @@
 
 # <a name="EnglishTitle"/>flyingACE ( Document in English )
 - This is a Cocos2dx game about aircraft fighting (using Cocos2dx binding C++). During this commit, the version of my Cocos2d is Cocos2d-x3.3.
-- We also published a product blog at [http://blog.csdn.net/yy19900806/article/category/2856067](http://blog.csdn.net/yy19900806/article/category/2856067)
+- I also published a development blog at [http://blog.csdn.net/yy19900806/article/category/2856067](http://blog.csdn.net/yy19900806/article/category/2856067)
 
 ---
 
@@ -75,6 +85,17 @@
 - Android NDK r10d
 - gcc 4.8
 - Tested under the win32, linux, android(both mobile and SDK).
+
+---
+
+## Configure
+`
+cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
+mkdir gitsrc
+cd gitsrc
+git clone https://github.com/netbeen/flyingACE.git
+`
+- And then, using folder named Classes and Resources to override the correspondence folder. Import with Eclipse for Android project.
 
 ---
 
