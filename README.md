@@ -20,8 +20,7 @@
 ## 配置方法 Configure
 ```shell
 cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
-mkdir gitsrc
-cd gitsrc
+mkdir gitsrc && cd gitsrc
 git clone https://github.com/netbeen/flyingACE.git
 ```
 - 然后用gitsrc中的Classes和Resources文件夹覆盖cocos新建的Classes和Resources文件夹，用Eclipse导入Android工程即可。
@@ -38,6 +37,7 @@ git clone https://github.com/netbeen/flyingACE.git
 - AppDelegate: 程序入口，初始化Director类的参数，场景构建，布景层挂载
 - BulletLayer: 子弹层，用批量渲染技术加载子弹并维护子弹数据
 - BulletUserData: 子弹数据
+- ControlLayer: 游戏控制层，负责分数显示和暂停按钮
 - EnemyLayer: 敌机层，加载敌机并维护敌机数据，检测敌机与子弹、敌机与我机及碰撞，并且调用对应接口
 - EnemyUserData: 敌机数据
 - GameBackgroundLayer: 布景层，实现地图加载，循环滚动
@@ -47,6 +47,9 @@ git clone https://github.com/netbeen/flyingACE.git
 - ResultBackgroundLayer: 游戏结果场景中显示背景图片的层
 - ResultButtonLayer: 游戏结果场景中显示并回调按钮事件的层
 - ResultScene: 游戏结果场景
+- SelectBackgroundLayer: 选择关卡界面背景层
+- SelectButtonLayer: 选择关卡界面按钮层
+- SelectScene: 选择关卡场景
 - UFOLayer: 不明飞行物层，目前用于投放武器加强的buff和大招buff
 - UFOUserData: 数据记录类，用于记录gift的类型
 - WelcomeBackgroundLayer: 欢迎界面中的背景层
@@ -93,8 +96,7 @@ git clone https://github.com/netbeen/flyingACE.git
 ## Configure
 ```shell
 cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
-mkdir gitsrc
-cd gitsrc
+mkdir gitsrc && cd gitsrc
 git clone https://github.com/netbeen/flyingACE.git
 ```
 - And then, using folder named Classes and Resources to override the correspondence folder. Import with Eclipse for Android project.
@@ -110,6 +112,7 @@ git clone https://github.com/netbeen/flyingACE.git
 - AppDelegate: The init access of the program. Init the Direct class and construct the Scenes and Layers.
 - BulletLayer: Bullet Layer, using SpriteBatchNode to load bullets.
 - BulletUserData: The data struct defined by myself. Recording the damage of each bullet.
+- ControlLayer: Game Control Layer, it provide the function of displaying scrore and pause button.
 - EnemyLayer: Enemy Layer, load the enemy from a plist, and placed them onto a random position. Also, prividing the interface of the crash detecting.
 - EnemyUserData: The datastruct defined by myself. Recording the some paramater of enemy plane, like HP and others. 
 - GameBackgroundLayer: Background Layer, auto loading the background image and rolling.
@@ -119,6 +122,9 @@ git clone https://github.com/netbeen/flyingACE.git
 - ResultBackgroundLayer: Show the background image in the result scene.
 - ResultButtonLayer: Show the button in the result scene.
 - ResultScene: Game result scene.
+- SelectBackgroundLayer: To show Select Scene's background.
+- SelectButtonLayer: To show Select Scene's button.
+- SelectScene: Select Scene.
 - UFOLayer: This Layer is actived by some sprcific conditions, now, this layer is used for some gift with buffs, like enhance the bullet or get the big bomb.
 - UFOUserData: The data structure recording the kind of UFO gift.
 - WelcomeBackgroundLayer: Show the background image in the welcome scene.
