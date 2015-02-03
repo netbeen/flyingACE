@@ -114,11 +114,11 @@ git clone https://github.com/netbeen/flyingACE.git
 - BulletUserData: The data struct defined by myself. Recording the damage of each bullet.
 - ControlLayer: Game Control Layer, it provide the function of displaying scrore and pause button.
 - EnemyLayer: Loading the enemys, and also, prividing the interface of the crash detecting.
-- EnemyUserData: The datastruct recording the some paramater of enemy plane, like HP and others. 
+- EnemyUserData: The datastruct recording the some paramater of enemy plane, like HP. 
 - GameBackgroundLayer: Background Layer, auto loading the background image and rolling.
 - GameScene: The main scene of the game, contain the most object.
 - PlaneLayer: Plane Layer, Interactive layer of the game.
-- PlaneUserData: The datastruct recording the some paramater of enemy plane, like HP and others. 
+- PlaneUserData: The datastruct recording the some paramater of enemy plane, like HP. 
 - ResultBackgroundLayer: Show the background image in the result scene.
 - ResultButtonLayer: Show the button in the result scene.
 - ResultScene: Game result scene.
