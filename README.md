@@ -38,7 +38,7 @@ git clone https://github.com/netbeen/flyingACE.git
 - BulletLayer: 子弹层，用批量渲染技术加载子弹并维护子弹数据
 - BulletUserData: 子弹数据
 - ControlLayer: 游戏控制层，负责分数显示和暂停按钮
-- EnemyLayer: 敌机层，加载敌机并维护敌机数据，检测敌机与子弹、敌机与我机及碰撞，并且调用对应接口
+- EnemyLayer: 敌机层，加载敌机并维护敌机数据，检测敌机与子弹、敌机与我机及碰撞
 - EnemyUserData: 敌机数据
 - GameBackgroundLayer: 布景层，实现地图加载，循环滚动
 - GameScene: 游戏主场景
@@ -109,23 +109,23 @@ git clone https://github.com/netbeen/flyingACE.git
 ---
 
 ## Files
-- AppDelegate: The init access of the program. Init the Direct class and construct the Scenes and Layers.
+- AppDelegate: The init access of the program. Init the Direct and construct the Scenes.
 - BulletLayer: Bullet Layer, using SpriteBatchNode to load bullets.
 - BulletUserData: The data struct defined by myself. Recording the damage of each bullet.
 - ControlLayer: Game Control Layer, it provide the function of displaying scrore and pause button.
-- EnemyLayer: Enemy Layer, load the enemy from a plist, and placed them onto a random position. Also, prividing the interface of the crash detecting.
-- EnemyUserData: The datastruct defined by myself. Recording the some paramater of enemy plane, like HP and others. 
+- EnemyLayer: Loading the enemys, and also, prividing the interface of the crash detecting.
+- EnemyUserData: The datastruct recording the some paramater of enemy plane, like HP and others. 
 - GameBackgroundLayer: Background Layer, auto loading the background image and rolling.
 - GameScene: The main scene of the game, contain the most object.
 - PlaneLayer: Plane Layer, Interactive layer of the game.
-- PlaneUserData: The datastruct defined by myself. Recording the some paramater of enemy plane, like HP and others. 
+- PlaneUserData: The datastruct recording the some paramater of enemy plane, like HP and others. 
 - ResultBackgroundLayer: Show the background image in the result scene.
 - ResultButtonLayer: Show the button in the result scene.
 - ResultScene: Game result scene.
 - SelectBackgroundLayer: To show Select Scene's background.
 - SelectButtonLayer: To show Select Scene's button.
 - SelectScene: Select Scene.
-- UFOLayer: This Layer is actived by some sprcific conditions, now, this layer is used for some gift with buffs, like enhance the bullet or get the big bomb.
+- UFOLayer: This layer is used for some  buffs, like enhance the bullet or get the big bomb.
 - UFOUserData: The data structure recording the kind of UFO gift.
 - WelcomeBackgroundLayer: Show the background image in the welcome scene.
 - WelcomeButtonLayer: Show the button in the welcome scene.
