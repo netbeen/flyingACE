@@ -232,6 +232,10 @@
             <filename>selectStartButton.png</filename>
             <filename>blank.png</filename>
             <filename>locked.png</filename>
+            <filename>img_bg_2.jpg</filename>
+            <filename>img_bg_4.jpg</filename>
+            <filename>img_bg_3.jpg</filename>
+            <filename>img_bg_5.jpg</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

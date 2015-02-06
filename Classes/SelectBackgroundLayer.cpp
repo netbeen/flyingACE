@@ -22,42 +22,46 @@ bool SelectBackgroundLayer::init() {
 	Sprite* blank1 = Sprite::createWithSpriteFrameName("img_bg_1.jpg");
 	blank1->setScale(0.5);
 	//blank1->setAnchorPoint(Point(0, 0));
-	blank1->setPosition(75 + 90, 700 + 160);
+	blank1->setPosition(165, 860);
 	this->addChild(blank1);
 
-	Sprite* blank2 = Sprite::createWithSpriteFrameName("blank.png");
-	blank2->setPosition(275 + 90, 700 + 160);
+	Sprite* blank2 = Sprite::createWithSpriteFrameName("img_bg_2.jpg");
+	blank2->setScale(0.5);
+	blank2->setPosition(365, 860);
 	this->addChild(blank2);
 	Sprite* blank2_locked = Sprite::createWithSpriteFrameName("locked.png");
-	blank2_locked->setPosition(275 + 90, 700 + 160);
+	blank2_locked->setPosition(365, 860);
 	this->addChild(blank2_locked);
 
-	Sprite* blank3 = Sprite::createWithSpriteFrameName("blank.png");
-	blank3->setPosition(475 + 90, 700 + 160);
+	Sprite* blank3 = Sprite::createWithSpriteFrameName("img_bg_3.jpg");
+	blank3->setScale(0.5);
+	blank3->setPosition(565, 860);
 	this->addChild(blank3);
 	Sprite* blank3_locked = Sprite::createWithSpriteFrameName("locked.png");
-	blank3_locked->setPosition(475 + 90, 700 + 160);
+	blank3_locked->setPosition(565, 860);
 	this->addChild(blank3_locked);
 
-	Sprite* blank4 = Sprite::createWithSpriteFrameName("blank.png");
-	blank4->setPosition(75 + 90, 350 + 160);
+	Sprite* blank4 = Sprite::createWithSpriteFrameName("img_bg_4.jpg");
+	blank4->setScale(0.5);
+	blank4->setPosition(165, 510);
 	this->addChild(blank4);
 	Sprite* blank4_locked = Sprite::createWithSpriteFrameName("locked.png");
-	blank4_locked->setPosition(75 + 90, 350 + 160);
+	blank4_locked->setPosition(165, 510);
 	this->addChild(blank4_locked);
 
-	Sprite* blank5 = Sprite::createWithSpriteFrameName("blank.png");
-	blank5->setPosition(275 + 90, 350 + 160);
+	Sprite* blank5 = Sprite::createWithSpriteFrameName("img_bg_5.jpg");
+	blank5->setScale(0.5);
+	blank5->setPosition(365, 510);
 	this->addChild(blank5);
 	Sprite* blank5_locked = Sprite::createWithSpriteFrameName("locked.png");
-	blank5_locked->setPosition(275 + 90, 350 + 160);
+	blank5_locked->setPosition(365, 510);
 	this->addChild(blank5_locked);
 
 	Sprite* blank6 = Sprite::createWithSpriteFrameName("blank.png");
-	blank6->setPosition(475 + 90, 350 + 160);
+	blank6->setPosition(565, 510);
 	this->addChild(blank6);
 	Sprite* blank6_locked = Sprite::createWithSpriteFrameName("locked.png");
-	blank6_locked->setPosition(475 + 90, 350 + 160);
+	blank6_locked->setPosition(565, 510);
 	this->addChild(blank6_locked);
 
 	TTFConfig ttfConfig("fonts/SIMLI.TTF", 100);
