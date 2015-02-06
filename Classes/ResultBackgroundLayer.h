@@ -18,11 +18,13 @@ public:
 	void setScore(int score);
 	void displayInfomation();
 private:
-	virtual bool init() override;
 	bool isWin;
 	int score;
 	cocos2d::Label* winOrLose;
 	cocos2d::Label* scoreLabel;
+
+	virtual bool init() override;
+	virtual void onKeyReleased(cocos2d::EventKeyboard::KeyCode keycode, cocos2d::Event* event) override;//对应back键
 };
 
 #endif /* RESULTBACKGROUNDLAYER_H_ */

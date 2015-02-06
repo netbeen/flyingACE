@@ -15,6 +15,7 @@ public:
 	CREATE_FUNC(WelcomeBackgroundLayer);
 private:
 	virtual bool init() override;
+	virtual void onKeyReleased(cocos2d::EventKeyboard::KeyCode keycode, cocos2d::Event* event) override;//对应back键
 };
 
 #endif /* WELCOMEBACKGROUNDLAYER_H_ */

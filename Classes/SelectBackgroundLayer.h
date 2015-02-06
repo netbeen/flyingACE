@@ -15,6 +15,7 @@ public:
 	CREATE_FUNC(SelectBackgroundLayer);
 private:
 	virtual bool init() override;
+	virtual void onKeyReleased(cocos2d::EventKeyboard::KeyCode keycode, cocos2d::Event* event) override;//对应back键
 };
 
 #endif /* SELECTBACKGROUNDLAYER_H_ */

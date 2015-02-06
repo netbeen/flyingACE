@@ -10,6 +10,10 @@
 USING_NS_CC;
 
 bool SelectBackgroundLayer::init() {
+	auto listenerkeyPad = EventListenerKeyboard::create();
+	listenerkeyPad->onKeyReleased = CC_CALLBACK_2(SelectBackgroundLayer::onKeyReleased, this);
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(listenerkeyPad, this);
+
 	Sprite* background = Sprite::createWithSpriteFrameName("selectSceneBackground.jpg");
 	background->setScale(2.0f);
 	background->setAnchorPoint(Point(0, 0));
@@ -51,7 +55,17 @@ bool SelectBackgroundLayer::init() {
 	Label* titleLabel = Label::createWithTTF(ttfConfig, "选择关卡", TextHAlignment::CENTER);
 	titleLabel->enableShadow();
 	titleLabel->setColor(Color3B(255, 201, 37));
-	titleLabel->setPosition(Director::getInstance()->getWinSize().width / 2, Director::getInstance()->getWinSize().height -100);
+	titleLabel->setPosition(Director::getInstance()->getWinSize().width / 2, Director::getInstance()->getWinSize().height - 100);
 	this->addChild(titleLabel);
 	return true;
+}
+
+void SelectBackgroundLayer::onKeyReleased(EventKeyboard::KeyCode keycode, Event* event) {
+	switch (keycode) {
+	case EventKeyboard::KeyCode::KEY_BACK:
+		Director::getInstance()->end();
+		break;
+	default:
+		break;
+	}
 }

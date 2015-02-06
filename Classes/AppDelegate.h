@@ -12,10 +12,7 @@
  */
 class AppDelegate: private cocos2d::Application {
 public:
-	AppDelegate();
 	virtual ~AppDelegate();
-
-	void initConfigXML();
 
 	virtual void initGLContextAttrs();
 
@@ -38,6 +35,9 @@ public:
 	 */
 	virtual void applicationWillEnterForeground();
 private:
+	//初始化XML配置信息
+	void initConfigXML();
+
 	cocos2d::SpriteFrameCache* textureCache = cocos2d::SpriteFrameCache::getInstance();
 	//cocos2d::AnimationCache* animationCache = cocos2d::AnimationCache::getInstance();
 };

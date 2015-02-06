@@ -10,6 +10,10 @@
 USING_NS_CC;
 
 bool ResultBackgroundLayer::init() {
+	auto listenerkeyPad = EventListenerKeyboard::create();
+	listenerkeyPad->onKeyReleased = CC_CALLBACK_2(ResultBackgroundLayer::onKeyReleased, this);
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(listenerkeyPad, this);
+
 	auto background = Sprite::createWithSpriteFrameName("img_bg_welcome.jpg");
 	background->setAnchorPoint(Point(0, 0));
 	background->setScale(2);
@@ -53,4 +57,14 @@ void ResultBackgroundLayer::displayInfomation() {
 	scoreLabel->setPosition(Director::getInstance()->getWinSize().width / 2, Director::getInstance()->getWinSize().height / 2);
 	this->addChild(scoreLabel);
 
+}
+
+void ResultBackgroundLayer::onKeyReleased(EventKeyboard::KeyCode keycode, Event* event) {
+	switch (keycode) {
+	case EventKeyboard::KeyCode::KEY_BACK:
+		Director::getInstance()->end();
+		break;
+	default:
+		break;
+	}
 }

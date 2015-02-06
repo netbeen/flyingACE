@@ -10,7 +10,6 @@
 
 #include "cocos2d.h"
 
-
 class BulletLayer : public cocos2d::Layer{
 public:
 	cocos2d::Vector<cocos2d::Sprite*> allBullet;
