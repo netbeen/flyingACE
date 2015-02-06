@@ -19,11 +19,14 @@
 
 ## 配置方法 Configure
 ```shell
-cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
-mkdir gitsrc && cd gitsrc
+mkdir MyGame && mkdir -p MyGame/cocos2dNew && cd MyGame
+cocos new FlyingACE -l cpp -p com.YOURNAME.flyingACE -d cocos2dNew/
 git clone https://github.com/netbeen/flyingACE.git
+rm -r cocos2dNew/FlyingACE/Classes/ && rm -r cocos2dNew/FlyingACE/Resources/ && rm cocos2dNew/FlyingACE/proj.android/jni/Android.mk
+cp -r cocos2dNew/FlyingACE/* flyingACE/
+sed -i 's/screenOrientation="landscape"/screenOrientation="reversePortrait"/' flyingACE/proj.android/AndroidManifest.xml 
 ```
-- 然后用gitsrc中的Classes和Resources文件夹覆盖cocos新建的Classes和Resources文件夹，用Eclipse导入Android工程即可。
+- 然后用Eclipse导入Android工程即可。
 
 ---
 
@@ -95,11 +98,14 @@ git clone https://github.com/netbeen/flyingACE.git
 
 ## Configure
 ```shell
-cocos new -l cpp -p com.YOURNAME.flyingACE FlyingACE
-mkdir gitsrc && cd gitsrc
+mkdir MyGame && mkdir -p MyGame/cocos2dNew && cd MyGame
+cocos new FlyingACE -l cpp -p com.YOURNAME.flyingACE -d cocos2dNew/
 git clone https://github.com/netbeen/flyingACE.git
+rm -r cocos2dNew/FlyingACE/Classes/ && rm -r cocos2dNew/FlyingACE/Resources/ && rm cocos2dNew/FlyingACE/proj.android/jni/Android.mk
+cp -r cocos2dNew/FlyingACE/* flyingACE/
+sed -i 's/screenOrientation="landscape"/screenOrientation="reversePortrait"/' flyingACE/proj.android/AndroidManifest.xml 
 ```
-- And then, using folder named Classes and Resources to override the correspondence folder. Import with Eclipse for Android project.
+- And then, Import the project with Eclipse for Android project.
 
 ---
 
