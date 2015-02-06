@@ -25,6 +25,7 @@ git clone https://github.com/netbeen/flyingACE.git
 rm -r cocos2dNew/FlyingACE/Classes/ && rm -r cocos2dNew/FlyingACE/Resources/ && rm cocos2dNew/FlyingACE/proj.android/jni/Android.mk
 cp -r cocos2dNew/FlyingACE/* flyingACE/
 sed -i 's/screenOrientation="landscape"/screenOrientation="reversePortrait"/' flyingACE/proj.android/AndroidManifest.xml 
+rm -r cocos2dNew/
 ```
 - 然后用Eclipse导入Android工程即可。
 
@@ -103,7 +104,8 @@ cocos new FlyingACE -l cpp -p com.YOURNAME.flyingACE -d cocos2dNew/
 git clone https://github.com/netbeen/flyingACE.git
 rm -r cocos2dNew/FlyingACE/Classes/ && rm -r cocos2dNew/FlyingACE/Resources/ && rm cocos2dNew/FlyingACE/proj.android/jni/Android.mk
 cp -r cocos2dNew/FlyingACE/* flyingACE/
-sed -i 's/screenOrientation="landscape"/screenOrientation="reversePortrait"/' flyingACE/proj.android/AndroidManifest.xml 
+sed -i 's/screenOrientation="landscape"/screenOrientation="reversePortrait"/' flyingACE/proj.android/AndroidManifest.xml
+rm -r cocos2dNew/ 
 ```
 - And then, Import the project with Eclipse for Android project.
 
