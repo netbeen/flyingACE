@@ -231,6 +231,7 @@
             <filename>selectSceneBackground.jpg</filename>
             <filename>selectStartButton.png</filename>
             <filename>blank.png</filename>
+            <filename>locked.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

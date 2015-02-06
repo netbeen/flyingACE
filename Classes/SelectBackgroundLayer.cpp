@@ -21,34 +21,44 @@ bool SelectBackgroundLayer::init() {
 
 	Sprite* blank1 = Sprite::createWithSpriteFrameName("img_bg_1.jpg");
 	blank1->setScale(0.5);
-	blank1->setAnchorPoint(Point(0, 0));
-	blank1->setPosition(75, 700);
+	//blank1->setAnchorPoint(Point(0, 0));
+	blank1->setPosition(75 + 90, 700 + 160);
 	this->addChild(blank1);
 
 	Sprite* blank2 = Sprite::createWithSpriteFrameName("blank.png");
-	blank2->setAnchorPoint(Point(0, 0));
-	blank2->setPosition(275, 700);
+	blank2->setPosition(275 + 90, 700 + 160);
 	this->addChild(blank2);
+	Sprite* blank2_locked = Sprite::createWithSpriteFrameName("locked.png");
+	blank2_locked->setPosition(275 + 90, 700 + 160);
+	this->addChild(blank2_locked);
 
 	Sprite* blank3 = Sprite::createWithSpriteFrameName("blank.png");
-	blank3->setAnchorPoint(Point(0, 0));
-	blank3->setPosition(475, 700);
+	blank3->setPosition(475 + 90, 700 + 160);
 	this->addChild(blank3);
+	Sprite* blank3_locked = Sprite::createWithSpriteFrameName("locked.png");
+	blank3_locked->setPosition(475 + 90, 700 + 160);
+	this->addChild(blank3_locked);
 
 	Sprite* blank4 = Sprite::createWithSpriteFrameName("blank.png");
-	blank4->setAnchorPoint(Point(0, 0));
-	blank4->setPosition(75, 350);
+	blank4->setPosition(75 + 90, 350 + 160);
 	this->addChild(blank4);
+	Sprite* blank4_locked = Sprite::createWithSpriteFrameName("locked.png");
+	blank4_locked->setPosition(75 + 90, 350 + 160);
+	this->addChild(blank4_locked);
 
 	Sprite* blank5 = Sprite::createWithSpriteFrameName("blank.png");
-	blank5->setAnchorPoint(Point(0, 0));
-	blank5->setPosition(275, 350);
+	blank5->setPosition(275 + 90, 350 + 160);
 	this->addChild(blank5);
+	Sprite* blank5_locked = Sprite::createWithSpriteFrameName("locked.png");
+	blank5_locked->setPosition(275 + 90, 350 + 160);
+	this->addChild(blank5_locked);
 
 	Sprite* blank6 = Sprite::createWithSpriteFrameName("blank.png");
-	blank6->setAnchorPoint(Point(0, 0));
-	blank6->setPosition(475, 350);
+	blank6->setPosition(475 + 90, 350 + 160);
 	this->addChild(blank6);
+	Sprite* blank6_locked = Sprite::createWithSpriteFrameName("locked.png");
+	blank6_locked->setPosition(475 + 90, 350 + 160);
+	this->addChild(blank6_locked);
 
 	TTFConfig ttfConfig("fonts/SIMLI.TTF", 100);
 
