@@ -2,7 +2,7 @@
 - **Difficult in Chinese? -> [English Version](#EnglishTitle)**
 - 这是一个使用Cocos2d-x-3.X 开发的飞机大战游戏，实际版本为Cocos2d-x3.3
 - 开发博客：<http://blog.csdn.net/yy19900806/article/category/2856067/>
-- Demo演示：<http://v.youku.com/v_show/id_XODgzNDQwNDgw.html?f=23404712&o=0/>
+- Demo演示：<http://v.youku.com/v_show/id_XODg3ODY2Mjg0.html?f=23404712&o=0/>
 
 ---
 
@@ -13,7 +13,6 @@
 - Android SDK 4.4.2 (API 19)
 - Android NDK r10d
 - gcc 4.8
-- 在win32平台、linux平台、android平台、android虚拟机上测试通过
 
 ---
 
@@ -82,7 +81,7 @@ rm -r cocos2dNew/
 # <a name="EnglishTitle"/>flyingACE ( Document in English )
 - This is a Cocos2dx game about aircraft fighting (using Cocos2dx binding C++). During this commit, the version of my Cocos2d is Cocos2d-x3.3.
 - Development Blog <http://blog.csdn.net/yy19900806/article/category/2856067/>
-- Video Demo: <http://v.youku.com/v_show/id_XODgzNDQwNDgw.html?f=23404712&o=0/>
+- Video Demo: <http://v.youku.com/v_show/id_XODg3ODY2Mjg0.html?f=23404712&o=0/>
 
 ---
 
@@ -93,7 +92,6 @@ rm -r cocos2dNew/
 - Android SDK 4.4.2 (API 19)
 - Android NDK r10d
 - gcc 4.8
-- Tested under the win32, linux, android(both mobile and SDK).
 
 ---
 
