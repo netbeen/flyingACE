@@ -20,6 +20,7 @@
 /proj.android/.pydevproject
 /proj.android/jni/hellocpp
 /proj.android/jni/Application.mk
+/proj.android/local.properties
 
 # Remove the Windows Thumbs.db
 Thumbs.db
