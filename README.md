@@ -2,7 +2,7 @@
 - **Difficult in Chinese? -> [English Version](#EnglishTitle)**
 - 这是一个使用Cocos2d-x-3.X 开发的飞机大战游戏，实际版本为Cocos2d-x3.3
 - 开发博客：<http://blog.csdn.net/yy19900806/article/category/2856067/>
-- 同步更新：<http://cn.cocos2d-x.org/tutorial/lists?id=154/>
+- 同步更新：<http://cn.cocos2d-x.org/tutorial/lists?id=154/>(Cocos引擎中文网)
 - Demo演示：<http://v.youku.com/v_show/id_XODg3ODY2Mjg0.html?f=23404712&o=0/>
 
 ---
