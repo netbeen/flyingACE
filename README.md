@@ -34,7 +34,7 @@ rm -r cocos2dNew/
 
 # 游戏界面 GUI
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XODg3ODY2Mjg0' frameborder=0 'allowfullscreen'></iframe>
+https://user-images.githubusercontent.com/1592533/141647497-3954a1f5-138e-4305-bc68-87a81e0b6e4d.mp4
 
 
 ---
@@ -114,7 +114,7 @@ rm -r cocos2dNew/
 ---
 
 # GUI
-![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
+https://user-images.githubusercontent.com/1592533/141647497-3954a1f5-138e-4305-bc68-87a81e0b6e4d.mp4
 
 ---
 
