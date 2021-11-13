@@ -32,7 +32,8 @@ rm -r cocos2dNew/
 ---
 
 # 游戏界面 GUI
-![GUI](http://ww2.sinaimg.cn/large/9e2d8c2djw1eoutbcwwzgg203o06jx6t.gif)
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XODg3ODY2Mjg0' frameborder=0 'allowfullscreen'></iframe>
 
 
 ---
