@@ -1,9 +1,10 @@
 # flyingACE (王牌飞行员)
 - **Difficult in Chinese? -> [English Version](#EnglishTitle)**
 - 这是一个使用Cocos2d-x-3.X 开发的飞机大战游戏，实际版本为Cocos2d-x3.3
-- 开发博客：<http://blog.csdn.net/yy19900806/article/category/2856067/>
-- Cocos引擎中文官网同步更新：<http://cn.cocos2d-x.org/tutorial/lists?id=154/>
-- Demo演示：<http://v.youku.com/v_show/id_XODg3ODY2Mjg0.html?f=23404712&o=0/>
+- 开发博客：<https://blog.csdn.net/yy19900806/article/category/2856067/>
+- Cocos引擎中文官网同步更新：<https://cn.cocos2d-x.org/tutorial/lists?id=154/>
+- 优酷 Demo：<https://v.youku.com/v_show/id_XODg3ODY2Mjg0 />
+- Youtube Demo：<https://www.youtube.com/watch?v=EL8_TlL1kLY />
 
 ---
 
@@ -82,8 +83,9 @@ rm -r cocos2dNew/
 
 # <a name="EnglishTitle"/>flyingACE ( Document in English )
 - This is a Cocos2dx game about aircraft fighting (using Cocos2dx binding C++). During this commit, the version of my Cocos2d is Cocos2d-x3.3.
-- Development Blog <http://blog.csdn.net/yy19900806/article/category/2856067/>
-- Video Demo: <http://v.youku.com/v_show/id_XODg3ODY2Mjg0.html?f=23404712&o=0/>
+- Development Blog <https://blog.csdn.net/yy19900806/article/category/2856067/>
+- Youku Demo: <https://v.youku.com/v_show/id_XODg3ODY2Mjg0 />
+- Youtube Demo：<https://www.youtube.com/watch?v=EL8_TlL1kLY />
 
 ---
 
